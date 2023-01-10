@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaibhav's Portfolio</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans&family=Montserrat:wght@500;600;800&family=Raleway:wght@200;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f426985a11.js" crossorigin="anonymous"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("wI7hDI-fRxLu8krW-");
+        })();
+    </script>  
+    <script
+        src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+    </script>
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar.css" />
+</head>
+<body>
+    <!-- Navbar -->
+    <section class="hero">
+        <header class="header">
+            <nav id="navbar">
+                <div id="logo">
+                    <img src="./images/logo_portfolio.png" alt="">
+                </div>
+                <input type="checkbox" id="check" onclick="mycheck()">
+                <label for="check" class="checkbtn">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <div class="nav_icon">
+                    <div class="line"></div>
+                </div>
+                <div class="container">
+                    <ul class="nav_menu" id="navMenu">
+                        <li class="nav_list" onclick="myfunc()"><a href="#home" class="nav_link home active">HOME</a></li>
+                        <li class="nav_list" onclick="myfunc()"><a href="#aboutme" class="nav_link">ABOUT ME</a></li>
+                        <li class="nav_list" onclick="myfunc()"><a href="#education" class="nav_link">EDUCATION</a></li>
+                        <li class="nav_list" onclick="myfunc()"><a href="#skills" class="nav_link">SKILLS</a></li>
+                        <li class="nav_list" onclick="myfunc()"><a href="#projects" class="nav_link">PROJECTS</a></li>
+                        <li class="nav_list" onclick="myfunc()"><a href="#contact" class="nav_link">CONTACT</a></li>
+                        <li><a id="6" href="files/Vaibhav_Nikrad_Resume.pdf" download>RESUME</a></li>
+                    </ul>
+                </div>
+               
+            </nav>
+        </header>
+    </section>
+    <!-- Home -->
+    <section id="home">
+        <div id="intro">
+            <h3>WELCOME TO MY WORLD</h3>
+            <p>Hi, I'm <span>Vaibhav Nikrad</span></p>
+            <div class="wrapper">
+                <!-- <div class="static-txt">I'm a</div> -->
+                <ul class="dynamic-txt">
+                    <li><span>Developer</span></li>
+                    <li><span>Problem Solver</span></li>
+                    <li><span>Tech-Enthusiast</span></li>
+                    <li><span>Programmer</span></li>
+                </ul>
+            </div>
+        </div>
+        <div id="img">
+            <img src="./images/vaibhav_closure.jpeg" alt="">
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="aboutme">
+        <h1>About Me</h1>
+        <div>
+            <div>
+                <img src="./images/vaibhav_closure.jpeg" alt="">
+            </div>
+            <div>
+                <div>
+                    <h2>I'm  Vaibhav Nikrad and <span>Java Developer</span></h2>
+                    <p>Hi! My name is <span>Vaibhav Nikrad</span>. I am a Java Developer, and I'm very passionate and dedicated to my work.
+                        With 1200+ hours of a coding experience. I have acquired knowledge necessary to make your work better.
+                    </p>
+                </div>
+                <div>
+                    <table>
+                        <tr>
+                            <td><i class="fa-solid fa-gift"></i></td>
+                            <td>&nbsp;&nbsp;Birthday</td>
+                            <td>&nbsp;:&nbsp;&nbsp; 11 Feb 2000</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-location-dot"></i></td>
+                            <td>&nbsp;&nbsp;Location</td>
+                            <td>&nbsp;:&nbsp;&nbsp; Ahmednagar, Maharashtra</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-school"></i></td>
+                            <td>&nbsp;&nbsp;Studied At</td>
+                            <td>&nbsp;:&nbsp;&nbsp; Savitribai Phule University Pune</td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td><i class="fa-solid fa-calendar"></i></td>
+                            <td>&nbsp;Age</td>
+                            <td>:&nbsp;&nbsp; 22</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-gamepad"></i></td>
+                            <td>&nbsp;Interests</td>
+                            <td>:&nbsp;&nbsp; Swimming, Automobile-Enthusiast</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-graduation-cap"></i></td>
+                            <td>&nbsp;Degree</td>
+                            <td>:&nbsp;&nbsp; Bachelor of Science</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <a id="downloadResume" href="files/Vaibhav_Nikrad_Resume.pdf" download>Download Resume</a>
+        <div id="gitstats">
+            <p><img src="https://github-readme-stats.vercel.app/api?username=VaibhavNikrad&count_private=true" alt=""></p>
+            <p><img src="https://github-readme-streak-stats.herokuapp.com?user=vaibhavNikrad" alt=""></p>
+        </div>
+        <div class="calendar">
+            <!-- Loading stuff -->
+            Loading the data just for you.
+        </div>        
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+        <h1>Education</h1>
+        <div id="educationcolumn">
+            <div>
+                <div>
+                    <h2>Full Stack Web-Devlopement</h2>
+                    <p>Masai School, Bengaluru</p>
+                    <p>May 2022 - Feb 2023</p>
+                </div>
+                <div></div>
+            </div>
+            <div>
+                <div></div>
+                <div>
+                    <h2>Bachelor of Science</h2>
+                    <p>Savitribai Phule University , Pune</p>
+                    <p>June 2018 - Mar 2021</p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h2>Higher Secondary Education</h2>
+                    <p>Ahmednagar College , Ahmednagar</p>
+                    <p>Mar 2015 - Apr 2017</p>
+                </div>
+                <div></div>
+            </div>
+        </div>
+       
+    </section>
+    <!-- Skills Sections -->
+    <section id="skills">
+        <h1>Skills</h1>
+        <div>
+            <div>
+                <img src="images/java.png" alt="">
+                <h2>Java</h2>
+            </div>
+            <div>
+                <img src="images/mysql.png" alt="">
+                <h2>MySql</h2>
+            </div>
+            <div>
+                <img src="images/hibernate.png" alt="">
+                <h2>Hibernate</h2>
+            </div>
+            <div>
+                <img src="images/leaf.png" alt="">
+                <h2>SpringBoot</h2>
+            </div>
+            <div>
+                <img src="images/javascript.png" alt="">
+                <h2>JavaScript</h2>
+            </div>
+            <div>
+                <img src="images/html.png" alt="">
+                <h2>HTML</h2>
+            </div>
+            <div>
+                <img src="images/css.png" alt="">
+                <h2>CSS</h3>
+            </div>
+            <div>
+                <img src="images/php.png" alt="">
+                <h2>PHP</h2>
+            </div>
+            
+        </div>
+    </section>
+    
+    <!-------------------------------------------------- Projects Section --------------------------------->
+    <section id="projects">
+        <h1>Projects</h1>
+        <div>
+            <div>
+                <img src="./images/fresh_basket_port.png" alt="Fresh's Basket Homepage img">
+                <h2>Nature's Basket</h2>
+                <p>Nature's Basket is an Indian online and retail strore grocery delivery chain focused in gourmet food. 
+                    It has a range of organic food, imported ingredients and exotic foods.</p>
+                <p><b>Tech Stacks:</b></p>
+                <p><i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-square-js"></i>
+                </p>
+                <button id="git1Button">Github <i class="fa-brands fa-github"></i></button>
+                <button id="deploy1Button">Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+            </div>
+            <div>
+                <img src="./images/unsplash_clone_port.png" alt="Unsplash img">
+                <h2>Unsplash</h2>
+                <p>
+                    Unsplash is a photo discovery platform for free to use, high-definition photos.
+                    It provides different types and categories of photos.
+                </p>
+                <p><b>Tech Stacks:</b></p>
+                <p><i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-square-js"></i>
+                </p>
+                <button id="git2Button">Github <i class="fa-brands fa-github"></i></button>
+                <button id="deploy2Button">Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+            </div>
+            <!------------hotstar---------------------------->
+            <div>
+                <img src="./images/hotstar_port.png" alt="hotstar_port">
+                <h2>HotStar Clone</h2>
+                <p>Hotstar is a free Indian entertainment streaming app available on mobile devices.
+                     The app allows you to stream popular movies, TV shows, and news.
+                     
+                </p>
+                <p><b>Tech Stacks:</b></p>
+                <p>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-square-js"></i>
+                </p>
+                <button id="git3Button">Github <i class="fa-brands fa-github"></i></button>
+                <button id="deploy3Button">Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+            </div>
+             <div>
+                <img src="./images/Rodan&Fields_port.png" alt="Rodan&Fields">
+                <h2>Rodan & Fields</h2>
+                <p>
+                    Rodan + Fields is a leading skincare brand founded in 2000 by Stanford-trained Dermatologists Dr. Katie Rodan and Dr. Kathy Fields with a passion for giving people the best skin of their lives — and the confidence that comes with it. 
+                </p>
+                <p><b>Tech Stacks:</b></p>
+                <p>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                   
+                </p>
+                <button id="git4Button">Github <i class="fa-brands fa-github"></i></button>
+                <button id="deploy4Button">Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Contact Me -->
+    <section id="contact">
+        <h1>Contact</h1>
+        <div>
+            <div>
+                <div>
+                    <i class="fa-solid fa-map"></i>
+                    <p><br>Ahmednagar, Maharashtra</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+91 9284925586</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>vaibhavnikrad96@gmail.com</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div id="socialMedia">
+        <i class="fa-brands fa-instagram" id="instagram"></i>
+        <i class="fa-brands fa-linkedin" id="linkedin"></i>
+        <i class="fa-brands fa-github" id="github"></i>
+    </div>
+</body>
+</html>
+<script src="script.js" ></script>
+<script>
+    GitHubCalendar(".calendar", "vaibhavNikrad");
+
+    GitHubCalendar(".calendar", "vaibhavNikrad", { responsive: true });
+</script>
+
