@@ -175,7 +175,9 @@ section:nth-child(1){
     margin: auto;
     margin-top: 100px;
     display: flex;
+    justify-content: center;
     gap: 100px;
+
 }
 #aboutme>div:nth-child(5){
     width: 90%;
