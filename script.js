@@ -144,4 +144,9 @@ function mycheck(){
     }
 }
 
+function resumeDownload(){
+   
+        window.open("files/FW20_0655_Vaibhav_Nikrad_Resume.pdf","_blank");
+      }
+
 
