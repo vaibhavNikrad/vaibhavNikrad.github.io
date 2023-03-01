@@ -50,11 +50,11 @@ html{
 }
 #navbar .container li>a:hover{
     cursor: pointer;
-    color: rgb(6, 177, 162);
+    color:#8806ce;
     font-weight: 600;
 }
 #navbar .container li>a.active{
-    color: rgb(6, 177, 162);
+    color:#8806ce;
     font-size: 13px;
     transition: 0.3s;
     font-weight: 600;
@@ -84,7 +84,7 @@ html{
     margin-bottom: 10px;
 }
 #home>div>p:nth-child(2)>span{
-    color: rgb(6, 177, 162);
+    color:#8806ce;
 }
 #home>div>h3{
     margin-left: 5px;
@@ -96,7 +96,7 @@ html{
     height: auto;
     margin-left: 150px;
     margin-top: 80px;
-    border: 0px solid rgb(6, 177, 162);
+    border: 0px solid #8806ce;
     border-radius: 20px;
 }
 #home>div>img{
@@ -143,7 +143,7 @@ html{
     height: 100%;
     width: 100%;
     background-color: white;
-    border-left: 2px solid rgb(6, 177, 162);
+    border-left: 2px solid #8806ce;
     animation: typing 2s steps(15) infinite;
 }
 @keyframes typing{
@@ -167,7 +167,7 @@ section:nth-child(1){
     width: 90%;
     margin: auto;
     margin-bottom: -60px;
-    color: rgb(7, 165, 152);
+    color: #8806ce;
     font-size: 35px;
 }
 #aboutme>div:nth-child(2), #aboutme>div:nth-child(4){
@@ -190,7 +190,7 @@ section:nth-child(1){
     width: 300px;
     height: auto;
     margin-top: 30px; 
-    border: 0px solid rgb(6, 177, 162);
+    border: 0px solid#8806ce;
     border-radius: 15px;
 }
 #aboutme>div:nth-child(2)>div>img{
@@ -210,7 +210,7 @@ section:nth-child(1){
     font-weight: 600;
 }
 #aboutme>div:nth-child(2)>div:nth-child(2)>div>h2>span{
-    color: rgb(6, 177, 162);
+    color: #8806ce;
 }
 #aboutme>div:nth-child(2)>div:nth-child(2)>div:nth-child(2){
     display: flex;
@@ -219,7 +219,7 @@ section:nth-child(1){
 }
 #aboutme>div:nth-child(2)>div:nth-child(2)>div>p>span{
     font-weight: 600;
-    color: rgb(6, 177, 162);
+    color:#8806ce;
     font-style: italic;
 }
 
@@ -228,7 +228,7 @@ section:nth-child(1){
 }
 #aboutme>div:nth-child(2)>div>div>table tr>td>i{
     font-size: 17px;
-    color: rgb(6, 177, 162);
+    color: #8806ce;
 }
 #downloadResume{
     width: 180px;
@@ -238,13 +238,13 @@ section:nth-child(1){
     font-size: 15px;
     font-weight: 600;
     color: rgb(243, 243, 244);
-    background-color: rgb(6, 177, 162);
+    background-color: #8806ce;
     border: 0px;
     border-radius: 5px;
     text-decoration: none;
 }
 #downloadResume:hover{
-    background-color: rgb(7, 165, 152);
+    background-color: #8806ce;
     cursor: pointer;
 }
 
@@ -256,7 +256,7 @@ section:nth-child(1){
     width: 90%;
     margin: auto;
     margin-bottom: 30px;
-    color: rgb(7, 165, 152);
+    color:#8806ce;
     font-size: 35px;
 }
 #education>div{
@@ -271,17 +271,12 @@ section:nth-child(1){
     left: 613px;
     font-size: 150px;
 }
-/* #education>div:nth-child(3)>p{
-    margin-top: -40px;
-    margin-bottom: -30px;
-    color: rgb(3, 113, 104);
-    text-shadow: 2px 1px 20px rgb(14, 122, 113);
-} */
+
 #educationcolumn>div>div>h2{
-    color: rgb(3, 113, 104);
+    color: #8806ce;
 }
 #educationcolumn>div>div:nth-child(1){
-    border-right: 2px solid rgb(3, 113, 104);
+    border-right: 2px solid #8806ce;
     padding: 20px 0px;
 }
 #educationcolumn>div:nth-child(odd)>div:nth-child(1){
@@ -326,7 +321,7 @@ section:nth-child(1){
     width: 90%;
     margin: auto;
     margin-bottom: 30px;
-    color: rgb(7, 165, 152);
+    color: #8806ce;
     font-size: 35px;
 }
 #skills>div{
@@ -340,11 +335,11 @@ section:nth-child(1){
 #skills>div>div{
     padding: 15px 0px;
     text-align: center;
-    background-color: rgba(6, 177, 163, 0.08);
+    background-color: rgba(6, 103, 177, 0.08);
     border-radius: 10px;
 }
 #skills>div>div:hover{
-    background-color: rgba(7, 165, 152, 0.249);
+    background-color: rgba(6, 103, 177, 0.08);
     transform: scale(1.1);
     transition: 0.3s;
 }
@@ -358,7 +353,7 @@ section:nth-child(1){
     margin-bottom: 12px;
     filter: invert(100%);
     border-radius: 50%;
-    background-color: rgb(57, 205, 205);
+    background-color: #8806ce;
 }
 #skills>div>div:nth-child(4)>img{
     width: 40%;
@@ -380,7 +375,7 @@ section:nth-child(1){
     width: 90%;
     margin: auto;
     margin-bottom: 30px;
-    color: rgb(7, 165, 152);
+    color:  #8806ce;
     font-size: 35px;
 }
 #projects>div{
@@ -431,7 +426,7 @@ section:nth-child(1){
 #projects>div>div>p:nth-child(4){
     margin-top: 8px;
     font-size: 1.15rem;
-    color: rgb(3, 113, 104);
+    color: #8806ce;
 }
 #projects>div>div>p>i{
     font-size: 30px;
@@ -448,7 +443,7 @@ section:nth-child(1){
     color: gray;
 }
 #projects>div>div>p>i:nth-child(3){
-    color: rgb(211, 211, 18);
+    color: rgb(211, 121, 18);
 }
 #projects>div>div>button{
     margin-top: 15px;
@@ -472,7 +467,7 @@ section:nth-child(1){
     width: 90%;
     margin: auto;
     margin-bottom: 30px;
-    color: rgb(7, 165, 152);
+    color: #8806ce;
     font-size: 35px;
 }
 #contact>div{
@@ -493,7 +488,7 @@ section:nth-child(1){
 }
 #contact>div>div>input:focus,#contact>div>div>textarea:focus{
     outline: none;
-    border: 0.5px solid rgb(7, 165, 152);
+    border: 0.5px solid  #8806ce;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 #contact>div>div>input:nth-child(4){
@@ -512,13 +507,13 @@ section:nth-child(1){
     margin-top: 10px;
     padding: 14px 235px;
     font-family: 'Montserrat', sans-serif;
-    background-color: rgb(7, 165, 152);
+    background-color:  #8806ce;
     color: white;
     border: 0px;
     border-radius: 5px;
 }
 #contact>div>div>button:hover{
-    background-color: rgb(3, 110, 101);
+    background-color: #8806ce;
     cursor: pointer;
 }
 #contact>div>div>div{
@@ -527,7 +522,7 @@ section:nth-child(1){
     gap: 40px;
 }
 #contact>div>div>div>i{
-    color: rgb(7, 165, 152);
+    color: #8806ce;
     font-size: 20px;
 }
 #contact>div>div>div:nth-child(1)>i{
@@ -826,7 +821,7 @@ section:nth-child(1){
     .checkbtn{
         display:block;
         margin-right: -260px;
-        color: rgb(3, 113, 104);
+        color:  #8806ce;
         font-size: 18px;
     }
 
@@ -963,26 +958,7 @@ section:nth-child(1){
         text-align: center;
         font-size: 25px;
     }
-    /* #education>div:nth-child(3){
-        width: 35px;
-        position: absolute;
-        top: 2000px;
-        left: 71px;
-        font-size: 100px;
-    }
-    #education>div:nth-child(3)>p{
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-    #education>div:nth-child(3)>p:nth-child(1){
-        margin-top: -47px;
-    }
-    #education>div:nth-child(3)>p:nth-child(2){
-        margin-top: -28px;
-    }
-    #education>div:nth-child(3)>p:nth-child(3){
-        margin-top: -6px;
-    } */
+    
     #educationcolumn>div>div>h2{
         font-size: 15px;
         margin-bottom: -10px;
@@ -995,12 +971,12 @@ section:nth-child(1){
         margin-bottom: -10px;
     }
     #educationcolumn>div>div:nth-child(1){
-        border-left: 2px solid rgb(3, 113, 104);
+        border-left: 2px solid rgb(51, 97, 212);
         border-right: 0px;
         padding: 0px 0px 0px 35px;
     }
     #educationcolumn>div:nth-child(2)>div:nth-child(2){
-        border-left: 2px solid rgb(3, 113, 104);
+        border-left: 2px solid rgb(51, 97, 212);
         padding: 0px 0px 0px 35px;
     }
     #educationcolumn>div:nth-child(odd)>div:nth-child(1){
