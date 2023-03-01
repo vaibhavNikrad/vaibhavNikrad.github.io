@@ -36,7 +36,7 @@ document.getElementById("deploy4Button").addEventListener("click",function(){
 })
 
 document.getElementById("instagram").addEventListener("click",function(){
-    window.open("")
+    window.open("https://www.instagram.com/vaibhav_nikrad96/")
 })
 
 document.getElementById("linkedin").addEventListener("click",function(){
