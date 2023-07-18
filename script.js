@@ -8,31 +8,31 @@ window.onscroll = function(){
     }
 }
 document.getElementById("git1Button").addEventListener("click",function(){
-    window.open("https://github.com/Nameera-Khatoon/important-sweater-778", "_blank");
+    window.open("https://github.com/vaibhavNikrad/MGNREGA", "_blank");
 })
 document.getElementById("deploy1Button").addEventListener("click",function(){
-    window.open("https://fanciful-entremet-410236.netlify.app/index.html", "_blank");
+    window.open("https://github.com/vaibhavNikrad/MGNREGA", "_blank");
 })
 
 document.getElementById("git2Button").addEventListener("click",function(){
-    window.open("https://github.com/vaibhavNikrad/defective-impulse-1904", "_blank");
+    window.open("https://github.com/shivam3singh/Online_Cab_Booking", "_blank");
 })
 document.getElementById("deploy2Button").addEventListener("click",function(){
-    window.open("https://subtle-lily-b2d9dc.netlify.app/", "_blank");
+    window.open("https://drive.google.com/drive/folders/17xUPrnA3oFhJOL5r73cq6g1mjW1Yu8bd", "_blank");
 })
 
 document.getElementById("git3Button").addEventListener("click",function(){
-    window.open("https://github.com/vaibhavNikrad/Movie-App/tree/main/movie%20App%20API", "_blank");
+    window.open("https://github.com/Nameera-Khatoon/important-sweater-778", "_blank");
 })
 document.getElementById("deploy3Button").addEventListener("click",function(){
-    window.open("https://zingy-gnome-fede32.netlify.app/", "_blank");
+    window.open("https://fanciful-entremet-410236.netlify.app/index.html", "_blank");
 })
 
 document.getElementById("git4Button").addEventListener("click",function(){
-    window.open("https://github.com/vaibhavNikrad/devout-summer-7853", "_blank");
+    window.open("https://github.com/vaibhavNikrad/Unsplash-Clone", "_blank");
 })
 document.getElementById("deploy4Button").addEventListener("click",function(){
-    window.open("https://snazzy-creponne-a959e5.netlify.app/", "_blank");
+    window.open("https://subtle-lily-b2d9dc.netlify.app/", "_blank");
 })
 
 document.getElementById("instagram").addEventListener("click",function(){
